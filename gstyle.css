@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+
+#blinker {
+  font-size: 185px;
+  font-weight: bold;
+  color: red;
+}
+
+#goback {
+  font-size: 75px;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+}
