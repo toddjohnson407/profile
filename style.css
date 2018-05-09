@@ -1,0 +1,114 @@
+body {
+  background-color: turquoise;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  color: purple;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100,10,170);
+}
+
+.container {
+  width: 1650px;
+  margin: 0 auto;
+}
+
+.sidecard {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.card {
+  background-color: white;
+  margin: 50px;
+  align-content: center;
+}
+
+.social {
+  line-height: 50px;
+  text-align: center;
+  color: lightblue;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.todo {
+  width: 150px;
+  height: 150px;
+}
+
+#lewagon {
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#todd {
+  font-size: 22px;
+}
+
+/*#social {
+  padding-top: 40px;
+}*/
+
+#sidebar {
+  background-color: red;
+  width: 250px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 200px;
+  align-content: left;
+  position: fixed;
+}
+
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
