@@ -1,8 +1,11 @@
 body {
   background-color: turquoise;
+  background-repeat: repeat;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
+
+
 
 h1 {
   font-size: 60px;
@@ -12,7 +15,6 @@ h1 {
 
 h2 {
   font-size: 40px;
-  color: purple;
   line-height: 50px;
 }
 
@@ -56,11 +58,12 @@ a:hover {
 }
 
 .card {
+  border: solid;
   background-color: white;
   margin: 25px;
   padding: 7px;
   align-content: center;
-  margin-left: 280px;
+  margin-left: 225px;
 }
 
 .social {
@@ -87,7 +90,8 @@ a:hover {
 }
 
 #me {
-  padding-top: 20px;
+  border-radius: 150px;
+  border: solid;
   width: 32%;
   height: 32%;
 }
@@ -97,14 +101,19 @@ a:hover {
 }
 
 #sidebar {
+  border-right: solid;
   background-color: red;
-  width: 250px;
+  width: 200px;
   left: 0;
   top: 0;
   bottom: 0;
   padding-top: 220px;
   align-content: left;
   position: fixed;
+}
+
+#intro {
+  padding-top: 30px;
 }
 
 
